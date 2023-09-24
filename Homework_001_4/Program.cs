@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Впишите число N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+for(int i = 2; i<=N; i+=2){
+    Console.WriteLine(i);
+}
